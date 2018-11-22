@@ -16,4 +16,3 @@ input_to_index = user_input[position]
 move(board, position, player_character = "X")
 
 display_board(board)
-  
