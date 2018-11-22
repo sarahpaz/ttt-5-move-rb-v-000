@@ -12,8 +12,8 @@ puts "Where would you like to go? (Pick a number between 1 - 9)"
 
 input = gets.strip
 
-input[index] = input_to_index
+input[position] = input_to_index
 
-move(board, index)
+move(board, position)
 
 display_board(board)
